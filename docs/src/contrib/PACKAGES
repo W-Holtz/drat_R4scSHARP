@@ -6,3 +6,27 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: scPred
+Version: 1.9.2
+Depends: R (>= 3.5.0)
+Imports: harmony, SeuratObject, methods, stats, ggbeeswarm, MLmetrics,
+        caret, kernlab, pROC, ggplot2, knitr, pbapply, cli, crayon
+Suggests: magrittr, mda
+License: MIT
+MD5sum: 9389eefaf2aea8c7f05a931eb205838c
+NeedsCompilation: no
+
+Package: SingleR
+Version: 2.1.0
+Depends: SummarizedExperiment
+Imports: methods, Matrix, S4Vectors, DelayedArray, DelayedMatrixStats,
+        BiocParallel, BiocSingular, stats, utils, Rcpp, beachmat,
+        parallel
+LinkingTo: Rcpp, beachmat, BiocNeighbors
+Suggests: testthat, knitr, rmarkdown, BiocStyle, BiocGenerics,
+        SingleCellExperiment, scuttle, scater, scran, scRNAseq,
+        ggplot2, pheatmap, grDevices, gridExtra, viridis, celldex
+License: GPL-3 + file LICENSE
+MD5sum: fc8936514ffea59528b97f4949da7e50
+NeedsCompilation: yes
